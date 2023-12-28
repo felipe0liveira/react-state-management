@@ -1,21 +1,22 @@
 {
-  "name": "react-state-management",
-  "version": "1.0.0",
-  "source": "source/index.html",
-  "scripts": {
-    "dev": "parcel",
-    "build": "parcel build"
-  },
-  "type": "module",
-  "repository": "git@github.com:felipe0liveira/react-state-management.git",
-  "author": "Felipe Oliveira <felpd3v@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "parcel": "^2.10.3",
-    "prettier": "^3.1.1"
-  }
+	"name": "react-state-management",
+	"version": "1.0.0",
+	"source": "source/index.html",
+	"scripts": {
+		"dev": "parcel -p 3000",
+		"build": "rm -rf dist/ && parcel build"
+	},
+	"type": "module",
+	"repository": "git@github.com:felipe0liveira/react-state-management.git",
+	"author": "Felipe Oliveira <felpd3v@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"parcel": "^2.10.3",
+		"prettier": "^3.1.1",
+		"process": "^0.11.10"
+	}
 }
