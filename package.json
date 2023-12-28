@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"source": "source/index.html",
 	"scripts": {
-		"dev": "parcel -p 3000",
+		"dev": "parcel -p 3000 --no-cache",
 		"build": "rm -rf dist/ && parcel build"
 	},
 	"type": "module",
