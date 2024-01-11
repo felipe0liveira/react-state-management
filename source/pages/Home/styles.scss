@@ -1,0 +1,32 @@
+main {
+	display: grid;
+	gap: 30px;
+
+	header {
+		padding: 35px 50px;
+		span {
+			color: #808080;
+		}
+	}
+
+	hr {
+		border: none;
+		border-bottom: 1px solid #a2a2a2;
+	}
+
+	section {
+		padding: 0 35px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		form {
+			width: 300px;
+
+			display: grid;
+			gap: 15px;
+		}
+	}
+}
