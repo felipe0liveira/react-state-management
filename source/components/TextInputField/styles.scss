@@ -1,0 +1,20 @@
+input {
+	width: auto;
+
+	border: 2px solid #a0a0a0;
+	padding: 10px;
+	font-size: 15px;
+
+	transition: 400ms ease;
+	
+	&.error {
+		border-color: #641b1b;
+	}
+
+	&:focus {
+		border-color: #333;
+		&.error {
+			border-color: #c83737;
+		}
+	}
+}
